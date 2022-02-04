@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Api
+Bundle-SymbolicName: um.es.parallel.api
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport
+Export-Package: um.es.parallel.api.core,
+ um.es.parallel.api.core.interfaces,
+ um.es.parallel.api.core.parallelfor,
+ um.es.parallel.api.core.section,
+ um.es.parallel.api.main,
+ um.es.parallel.api.parallelregion
+Automatic-Module-Name: um.es.parallel.api
