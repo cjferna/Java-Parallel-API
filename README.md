@@ -7,7 +7,7 @@ A shared memory parallel API for Java with a close syntax to OpenMP. Developed t
 parallelApi.parallel( t -> {
     System.out.println("Thread ID: " + t);
 	parallelApi.single(() -> System.out.println("First arriving thread will execute"));		
-	parallelApi.master(t, () -> System.out.println("Master thread execute));		
+	parallelApi.master(t, () -> System.out.println("Master thread execute"));		
 	
 	parallelApi.ordered(t, () -> {
 	    System.out.println("Executed as sequential code")
